@@ -1,0 +1,168 @@
+
+body {
+  font-family: 'Segoe UI', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8fafc;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #334155;
+  color: #f1f5f9;
+  padding: 0px 0px;
+  border-bottom: 1px solid #475569;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  position: relative;
+  left: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #f1f5f9;
+  text-decoration: none;
+}
+
+.navl {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navl a {
+  position: relative;
+  right: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.navl a:hover {
+  color: white;
+}
+
+.about-img-container {
+  text-align: center;
+  margin-top: 150px;
+}
+
+img {
+  position: relative;
+  top: 200px;
+  left: 650px;
+  width: 600px;
+}
+
+.abs {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  max-width: 600px;
+  
+}
+
+.abs > h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: #1E293B;
+}
+
+.abs > p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1E293B;
+  line-height: 1.7;
+}
+
+#Read {
+  position: relative;
+  top: 50px;
+  right: 250px;
+  padding: 9px 60px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #007dfe;
+  color: white;
+  background-color: #007dfe;
+  cursor: pointer;}
+
+#Read:hover {
+  background-color: #0891B2;
+  color: black;
+}
+
+.mfoot {
+  background-color: #1E293B;
+  color: white;
+  padding: 50px 40px 20px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.3);
+  border-top: 2px solid #334155;
+  margin-top: 400px;
+}
+
+.mfoot h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #38bdf8;
+  border-left: 4px solid #38bdf8;
+  padding-left: 10px;
+}
+
+.mfoot p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 5px 0;
+  color: #e2e8f0;
+}
+
+.mfoot ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mfoot ul li {
+  margin-bottom: 10px;
+}
+
+.mfoot ul li a {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.mfoot ul li a:hover {
+  color: #38bdf8;
+  text-decoration: underline;
+}
+
+.mfoot hr {
+  grid-column: 1 / -1;
+  border: none;
+  height: 1px;
+  background-color: #334155;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.copy {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 14px;
+  color: #94a3b8;
+}

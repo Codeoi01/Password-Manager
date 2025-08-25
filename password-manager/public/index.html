@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>PaasM</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href=" index.html" class="logo">PassM</a>
+        <ul class="navl">
+          <li><a href="/assets/src\contect.html">Contect</a></li>
+          <li><a href="/assets/src/about.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="intro-section">
+        <div class="gre">
+          <h1>Welcome to Your Paasword Manager</h1>
+          <p>
+            Secure your digital life with confidence. At PaasM, we provide a
+            clean, simple, and secure way to manage your passwords no clutter,
+            no compromise. Whether you're an individual or a small team, your
+            credentials are encrypted, protected, and always within reach. Your
+            privacy. Your control. Always.
+          </p>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <div class="main-content">
+          <h1 id="addp">Add Paasword</h1>
+          <form class="content" action="/submit" method="post">
+            <label for="Website">Website/App Name</label>
+            <br />
+            <input
+              type="text"
+              id="Website"
+              name="Website"
+              placeholder="Enter Website/App Name"
+              required
+            />
+            <br />
+            <br />
+            <label for="Username">Username</label>
+            <br />
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder=" Enter Your Username"
+              required
+            />
+            <br />
+            <br />
+            <label for="password"> Password</label>
+            <br />
+            <input
+              type="password"
+              id="paasword"
+              name="password"
+              placeholder="Enter Your Password"
+              required
+            />
+            <br />
+            <br />
+            <button id="btn" type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="table-section">
+        <div class="tab">
+          <div class="search-container">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search by Website, Username, or Password"
+            />
+          </div>
+
+          <h2 class="yp">Your Paaswords </h2>
+          <div class=" tab table-container">
+          <table>
+            <tr>
+              <th>Website/App Name</th>
+              <th>Username</th>
+              <th>Paasword</th>
+              <th>Delete</th>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mfoot">
+      <div class="sfoot">
+        <h3>About Us</h3>
+        <p>
+          We provide a secure and user-friendly platform to manage your
+          passwords efficiently.
+        </p>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="/public/index.html">Home</a></li>
+          <li><a href="/assets/src/contect.html">Contact</a></li>
+          <li><a href="/assets/src/about.html">About</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Follow Us</h3>
+        <ul>
+          
+          <li><a href="https://github.com/Codeoi01">GitHub</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+        <p>Email: akarshadkhan0801@gmail.com</p>
+        
+      </div>
+
+      <hr />
+      <p>© 2025 Your PaasM. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
