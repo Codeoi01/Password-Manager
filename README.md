@@ -59,5 +59,3 @@ This is a **client-side password manager**.
 All data is stored in your browser’s localStorage. For production or sensitive use, consider using a more advanced solution with encryption and server-side security.
 
 
-## 📂 Project Structure
-
